@@ -5,7 +5,6 @@ body {
     rgba(58, 0, 198, 1) 0%,
     rgba(0, 33, 185, 1) 100%
   );
-  height: 100vh;
   font-family: "Mohave", sans-serif;
   font-weight: 300;
   text-rendering: optimizeLegibility;
