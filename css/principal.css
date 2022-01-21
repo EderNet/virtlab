@@ -72,3 +72,15 @@ ul li {
 img {
   height: 300px;
 }
+
+a:hover::before {
+  content: "../img/icon_download.svg";
+  position: absolute;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
