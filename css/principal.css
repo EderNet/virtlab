@@ -18,42 +18,51 @@ body {
   color: azure;
 }
 
-h1,
-h3 {
+h1 {
   text-align: center;
   font-size: 2em;
   margin-top: 200px;
   margin-bottom: 0;
 }
 h3 {
+  text-align: center;
   font-size: 1em;
-  margin: 0 auto;
-  border-bottom: 1px solid #848484;
-  max-width: 50%;
+  margin: -1px auto;
+  padding: 15px;
+  border: 1px solid #848484;
+  max-width: 300px;
+  color: #45ffca;
+  border-radius: 15px 15px 0px 0px;
+}
+h4 {
+  text-align: center;
+  margin: 0 0 50px;
 }
 
-#container {
-  font-size: 1.4em;
-}
-
-.almacen {
+.almacen,
+.liquido {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   height: auto;
+  border-top: 1px solid grey;
+  margin-bottom: 60px;
 }
+
 ul {
   display: flex;
   width: 100%;
-  margin: 30px;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
+
 ul li {
   list-style: none;
   display: flex;
   flex-direction: column;
-  flex-basis: 5%;
+  flex-basis: auto;
   align-items: center;
   flex-grow: 1;
   font-size: 1.2em;
