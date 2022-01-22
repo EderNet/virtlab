@@ -80,7 +80,7 @@ a {
   position: relative;
   transition: all ease-in 0.3s;
 }
-e a:hover::before {
+a:hover::before {
   content: "";
   background-image: url(../img/icon_download.svg);
   position: absolute;
