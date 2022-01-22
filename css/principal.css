@@ -78,9 +78,9 @@ a {
   display: flex;
   justify-content: center;
   position: relative;
+  transition: all ease-in 0.3s;
 }
-
-a:hover::before {
+e a:hover::before {
   content: "";
   background-image: url(../img/icon_download.svg);
   position: absolute;
